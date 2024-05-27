@@ -9,17 +9,17 @@ import UgcGallery from "./components/UgcGallery";
 
 function App() {
   //Instance ID
-  let InstanceId_Widget = "513953";
-  let InstanceId_QA = "513951";
-  let InstanceId_SEO = "600662";
-  let InstanceId_Carousel = "600665";
-  let InstanceId_StarRating = "491372";
-  let InstanceId_PromotedProd = "608401";
+  let InstanceId_Widget = "744658";
+  let InstanceId_QA = "744660";
+  let InstanceId_SEO = "744662";
+  let InstanceId_Carousel = "744663";
+  let InstanceId_StarRating = "744659";
+  let InstanceId_PromotedProd = "";
   let InstanceId_UgcGallery = "";
-  let InstanceId_ReviewsTab = "";
+  let InstanceId_ReviewsTab = "744661";
 
   //Product ID
-  let ProductId = "";
+  let ProductId = "4748275417182";
 
   //Clipboard text here.
   let ClipBoardHeading = "Follow these steps to add this";
@@ -119,9 +119,9 @@ function App() {
             clipboardsnippetnote={SnippetClipboardNote}
           />
 
-          <ReviewsTab 
-            instanceid={InstanceId_ReviewsTab} 
-            productid={ProductId} 
+          <ReviewsTab
+            instanceid={InstanceId_ReviewsTab}
+            productid={ProductId}
           />
         </div>
       </div>
